@@ -106,15 +106,15 @@ input, select, textarea {
 		background-position: center, center;
 	}
 
-		body.interface *, body.interface *:before, body.interface *:after {
-			-moz-animation: none;
-			-webkit-animation: none;
-			-ms-animation: none;
-			animation: none;
-			-moz-transition: none;
-			-webkit-transition: none;
-			-ms-transition: none;
-			transition: none;
+		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
 		}
 
 /* Type */
@@ -3475,7 +3475,7 @@ input, select, textarea {
 
 		}
 
-		body.interface #banner .logo {
+		body.is-preload #banner .logo {
 			-moz-transform: translateY(0.5em);
 			-webkit-transform: translateY(0.5em);
 			-ms-transform: translateY(0.5em);
@@ -3483,7 +3483,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		body.interface #banner h2 {
+		body.is-preload #banner h2 {
 			opacity: 0;
 			-moz-transform: translateX(0.25em);
 			-webkit-transform: translateX(0.25em);
@@ -3495,7 +3495,7 @@ input, select, textarea {
 			filter: blur(2px);
 		}
 
-		body.interface #banner p {
+		body.is-preload #banner p {
 			opacity: 0;
 			-moz-transform: translateX(0.5em);
 			-webkit-transform: translateX(0.5em);
